@@ -480,7 +480,6 @@ keymap.update(
             idea("action CodeCompletion", "action CodeCompletion")
         ],  # perfect == extra complete
         "smart": [idea("action SmartTypeCompletion")],
-        "docs": idea("action QuickJavaDoc"),
         # Variants which take text?  Replaced mostly with "call" formatter.
         # "complete <dgndictation> [over]": [idea("action CodeCompletion"), text],
         # "smart <dgndictation> [over]": [idea("action SmartTypeCompletion"), text],
