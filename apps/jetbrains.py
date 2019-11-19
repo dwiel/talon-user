@@ -350,7 +350,7 @@ select_verbs = {
     "cut": [idea("action EditorCut")],
     "clear": [idea("action EditorBackSpace")],
     "comment": [idea("action CommentByLineComment")],
-    "paste": [idea("action EditorPaste")],
+    "replace": [idea("action EditorPaste")],
     "expand": [idea("action ExpandRegion")],
     "collapse": [idea("action CollapseRegion")],
     "phones": [phones_selection],
@@ -420,7 +420,11 @@ select_objects = {
     "way down": [idea("action EditorTextEndWithSelection")],
 }
 
-movement_verbs = {"go": [], "fix": [idea("action ShowIntentionActions")]}
+movement_verbs = {
+    "go": [],
+    "fix": [idea("action ShowIntentionActions")],
+    "paste": [idea("action EditorPaste")],
+}
 
 movement_objects = {
     "this": [],
@@ -576,7 +580,6 @@ keymap.update(
             utils.text,
             Key("enter"),
         ],
-        "go file": idea("action GotoFile"),
         "recent": [idea("action RecentFiles"), set_extend()],
         "recent <dgndictation> [over]": [
             idea("action RecentFiles"),
