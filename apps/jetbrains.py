@@ -356,6 +356,8 @@ select_verbs = {
     "phones": [phones_selection],
     "refactor": [idea("action Refactorings.QuickListPopupAction")],
     "rename": [idea("action RenameElement")],
+    "indent": [idea("action EditorIndentLineOrSelection")],
+    "unindent": [idea("action EditorUnindentSelection")],
 }
 
 select_objects = {
