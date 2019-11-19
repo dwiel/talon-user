@@ -550,6 +550,25 @@ keymap.update(
             utils.text,
             set_extend(),
         ],
+        "search symbol": idea("action GotoSymbol"),
+        "search symbol <dgndictation>": [
+            idea("action GotoSymbol"),
+            utils.text,
+            Key("enter"),
+        ],
+        "search class": idea("action GotoClass"),
+        "search class <dgndictation>": [
+            idea("action GotoClass"),
+            utils.text,
+            Key("enter"),
+        ],
+        "search file": idea("action GotoFile"),
+        "search file <dgndictation>": [
+            idea("action GotoFile"),
+            utils.text,
+            Key("enter"),
+        ],
+        "go file": idea("action GotoFile"),
         "recent": [idea("action RecentFiles"), set_extend()],
         "recent <dgndictation> [over]": [
             idea("action RecentFiles"),
