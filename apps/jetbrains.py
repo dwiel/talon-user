@@ -389,6 +389,13 @@ select_objects = {
             "action EditorLineEndWithSelection",
         ),
     ],
+    "whole line": [
+        idea("action EditorSelectLine"),
+    ],
+    f"whole line {utils.numerals}": [
+        idea_num("goto {} 0", drop=3),  # broken with go start
+        idea("action EditorSelectLine"),
+    ],
     f"lines {utils.numerals} until {utils.numerals}": [
         idea_range("range {} {}", drop=2)
     ],  # broken with go start
