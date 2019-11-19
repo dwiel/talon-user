@@ -512,6 +512,11 @@ keymap.update(
         "extract parameter": idea("action IntroduceParameter"),
         "extract interface": idea("action ExtractInterface"),
         "extract method": idea("action ExtractMethod"),
+        "refactor in line": idea("action Inline"),
+        "refactor move": idea("action Move"),
+        "refactor rename": idea("action RenameElement"),
+        "rename file": idea("action RenameFile"),
+        "(organize | optimize) imports": idea("action OptimizeImports"),
         # Quick Fix / Intentions
         "fix this <dgndictation> [over]": [
             idea("action ShowIntentionActions"),
