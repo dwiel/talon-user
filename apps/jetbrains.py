@@ -535,9 +535,6 @@ keymap.update(
         ],
         "fix (format | formatting)": idea("action ReformatCode"),
         "fix imports": idea("action OptimizeImports"),
-        # indentation
-        "indent": idea("action EditorIndentLineOrSelection"),
-        "unindent": idea("action EditorUnindentSelection"),
         # Go: move the caret
         "(go declaration | follow)": idea("action GotoDeclaration"),
         "go implementation": idea("action GotoImplementation"),
