@@ -350,6 +350,7 @@ select_verbs = {
     "cut": [idea("action EditorCut")],
     "clear": [idea("action EditorBackSpace")],
     "comment": [idea("action CommentByLineComment")],
+    "paste": [idea("action EditorPaste")],
     "expand": [idea("action ExpandRegion")],
     "collapse": [idea("action CollapseRegion")],
     "phones": [phones_selection],
