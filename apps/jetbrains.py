@@ -528,13 +528,13 @@ keymap.update(
         "refactor move": idea("action Move"),
         "refactor rename": idea("action RenameElement"),
         "rename file": idea("action RenameFile"),
-        "(organize | optimize) imports": idea("action OptimizeImports"),
         # Quick Fix / Intentions
         "fix this <dgndictation> [over]": [
             idea("action ShowIntentionActions"),
             utils.text,
         ],
         "fix (format | formatting)": idea("action ReformatCode"),
+        "fix imports": idea("action OptimizeImports"),
         # indentation
         "indent": idea("action EditorIndentLineOrSelection"),
         "unindent": idea("action EditorUnindentSelection"),
